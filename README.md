@@ -1,3 +1,5 @@
+## Project Structure
+```
 Periculum_project_submission/
 │
 ├── data_in/
@@ -15,8 +17,7 @@ Periculum_project_submission/
 ├── main.py
 ├── README.md
 ├── requirements.txt
-
-
+```
 ---
 
 ## Setup Instructions
