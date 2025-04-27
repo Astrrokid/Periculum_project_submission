@@ -5,6 +5,15 @@ from src.owner_info import OwnerInfo
 from src.inventory import Inventory
 
 def extract_data(aligned_content):
+    """
+    Extracts owner information and inventory details from aligned text content.
+
+    Args:
+        aligned_content (list of str): Lines of text from the parsed PDF.
+
+    Returns:
+        str: JSON-formatted string containing the owner's info and a list of inventory items.
+    """
     owner_info = OwnerInfo()
     inventory_list = []
     possible_areas = {'Living Room', 'Kitchen', 'Garage', 'Office', 'Bedroom', 'Dining Room'}
