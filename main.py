@@ -14,5 +14,5 @@ def run_pipeline(path_to_pdf):
     print(f"Saved JSON to {output_json_path}")
 
 if __name__ == "__main__":
-    path_to_pdf = find_pdf(input_dir_name)[0]
-    run_pipeline(path_to_pdf)
+    path_to_input_pdf = find_pdf(input_dir_name)[0]
+    run_pipeline(path_to_input_pdf)

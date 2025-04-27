@@ -24,8 +24,8 @@ Periculum_project_submission/
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone https://github.com/Astrrokid/Periculum_project_submission.git
+cd Periculum_project_submission
 ```
 
 ### 2. Install the Dependencies
